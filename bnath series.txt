@@ -1,0 +1,20 @@
+ int main()
+{
+   int x,n,count=1;
+   float sum=0,term=1;
+    printf("enter the value of x \n");
+    scanf("%d",&x);
+
+    printf("enter the no.of terms to be added \n");
+    scanf("%d",&n);
+    for(count=1; count<=n; count+1)
+    {
+        count=count+1;
+        sum =sum +term;
+        term=(term*x)/count;
+
+    }
+     printf("sum of series %f",sum);
+     return 0;
+}
+-- INSER
